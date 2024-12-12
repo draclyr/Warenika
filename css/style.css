@@ -5,12 +5,12 @@
 }
 
 :root {
-    --light-color: #A59D84;
+    --light-color: #616161;
     --light-second-color: #C1BAA1;
     --light-background: #ECEBDE;
     --light-second-background: #ECEBDE;
 
-    --dark-color: #ECDFCC;
+    --dark-color: #fff;
     --dark-second-color: #697565;
     --dark-background: #3C3D37;
     --dark-second-background: #1E201E;
@@ -118,6 +118,7 @@ ul {
     background-color: #fdfdfd;
     color: 000;
     border: none;
+    border-radius: 10px;
     padding-right: 10px;
     height: 40px;
 }
@@ -125,6 +126,7 @@ ul {
 .top2 form input:focus {
     border: none;
     outline: none;
+    border-radius: 10px;
 }
 
 .top2 form button {
@@ -137,6 +139,8 @@ ul {
     font-size: 20px;
     margin-bottom: 5px;
     cursor: pointer;
+    border-radius: 10px;
+    margin-right: 4px;
 }
 
 /*-----------------------------*/
@@ -162,6 +166,7 @@ ul {
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.3s;
+    border-radius: 10px;
 }
 
 .main-menu ul li a {
