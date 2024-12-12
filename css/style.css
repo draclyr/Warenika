@@ -249,11 +249,13 @@ ul {
     position: relative;
     margin-bottom: 40px;
     line-height: 2.5;
+    border-radius: 10px;
 }
 
 .slider-box img {
     height: 200px;
     object-fit: contain;
+    border-radius: 10px;
 }
 
 
